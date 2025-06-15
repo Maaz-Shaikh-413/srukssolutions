@@ -13,11 +13,11 @@
   overflow: hidden;
   padding: 203px 0 114px;
   z-index: 1;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     background-position: top left;
     padding: 158px 0 84px;
   }
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     padding: 150px 0 84px;
   }
 }
@@ -26,17 +26,17 @@
   text-align: center;
   .title {
     color: #fefefe;
-    font-weight: $font-weight-semi-bold;
+    font-weight: ₹font-weight-semi-bold;
     text-transform: capitalize;
     font-size: 45px;
     letter-spacing: 0;
     margin: 0 0 22px 0;
     line-height: 1;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 36px;
       margin: 0 0 22px 0;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 32px;
     }
   }
@@ -56,20 +56,20 @@
     padding: 0;
 
     li {
-      color: $theme-color;
+      color: ₹theme-color;
       font-size: 16px;
-      font-weight: $font-weight-normal;
+      font-weight: ₹font-weight-normal;
       line-height: 1;
       letter-spacing: 0.40px;
       text-transform: capitalize;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 14px;
       }
       a {
         color: #fefefe;
 
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }

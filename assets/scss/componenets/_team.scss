@@ -7,11 +7,11 @@
   .container {
     padding-top: 120px;
     padding-bottom: 111px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-top: 80px;
       padding-bottom: 82px;
     }
-    @media #{$md-device} {
+    @media #{₹md-device} {
       padding-bottom: 50px;
     }
   }
@@ -20,7 +20,7 @@
 .team-area {
   .container {
     padding-bottom: 70px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-bottom: 54px;
     }
   }
@@ -30,22 +30,22 @@
   .container {
     padding-top: 120px;
     padding-bottom: 100px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-top: 80px;
       padding-bottom: 60px;
     }
   }
   .pagination-area {
     margin-top: 40px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-top: 10px;
     }
   }
 }
 
 .team-item {
-  background-color: $gray-lighter;
-  border: 1px solid $gray-lighter;
+  background-color: ₹gray-lighter;
+  border: 1px solid ₹gray-lighter;
   border-radius: 5px;
   margin-bottom: 30px;
   padding: 44px 45px 44px;
@@ -63,21 +63,21 @@
     .title {
       font-size: 22px;
       margin-bottom: 8px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 18px;
       }
       a {
-        color: $theme-color2;
+        color: ₹theme-color2;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
 
     .sub-title {
-      color: $theme-color;
+      color: ₹theme-color;
       font-size: 15px;
-      font-weight: $font-weight-normal;
+      font-weight: ₹font-weight-normal;
       margin-bottom: 18px;
     }
 
@@ -113,7 +113,7 @@
   }
 
   &:hover {
-    background-color: $white;
+    background-color: ₹white;
     border-color: #eee;
     .bookmark-icon {
       opacity: 0;
@@ -125,20 +125,20 @@
 }
 
 .team-details-wrap {
-  background-color: $gray-lighter;
+  background-color: ₹gray-lighter;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
   padding: 45px 44px 45px 50px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding: 30px 30px 30px 30px;
   }
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     display: block;
   }
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     text-align: center;
   }
 }
@@ -146,7 +146,7 @@
 .team-details-info {
   align-items: center;
   display: flex;
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     display: block;
   }
   .thumb {
@@ -157,34 +157,34 @@
   .content {
     margin-top: -3px;
     margin-left: 30px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-left: 15px;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       margin-left: 0;
       margin-top: 14px;
     }
     .title {
       font-size: 24px;
       margin-bottom: 9px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 20px;
         margin-bottom: 6px;
       }
     }
     .sub-title {
-      color: $theme-color;
+      color: ₹theme-color;
       font-size: 16px;
-      font-weight: $font-weight-medium;
+      font-weight: ₹font-weight-medium;
       margin-bottom: 12px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 14px;
       }
     }
     .info-list {
       display: flex;
       margin-bottom: 0;
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         display: block;
       }
       li {
@@ -194,10 +194,10 @@
         + {
           li {
             margin-left: 19px;
-            @media #{$lg-device} {
+            @media #{₹lg-device} {
               margin-left: 8px;
             }
-            @media #{$xxs-device} {
+            @media #{₹xxs-device} {
               margin-top: 10px;
               margin-left: 0;
             }
@@ -209,35 +209,35 @@
 }
 
 .team-details-btn {
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     margin-top: 20px;
   }
   .btn-theme {
     box-shadow: none;
     font-size: 15px;
-    font-weight: $font-weight-medium;
+    font-weight: ₹font-weight-medium;
     display: block;
     height: 50px;
     padding: 8px;
     width: 170px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 14px;
       height: 45px;
       padding: 4px 4px 5px;
       width: 152px;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       display: inline-block;
     }
     &.btn-light {
-      background-color: $white;
+      background-color: ₹white;
       border-color: #eef0f5;
-      color: $theme-color2;
+      color: ₹theme-color2;
       margin-bottom: 10px;
       &:hover {
-        background-color: $theme-color;
-        border-color: $theme-color;
-        color: $white;
+        background-color: ₹theme-color;
+        border-color: ₹theme-color;
+        color: ₹white;
       }
     }
   }
@@ -246,21 +246,21 @@
 .team-details-item {
   margin-top: -7px;
   margin-right: 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-right: 0;
   }
-  @media #{$md-device} {
+  @media #{₹md-device} {
     margin-bottom: 55px
   }
   .content {
     margin-bottom: 38px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-bottom: 28px;
     }
     .title {
       font-size: 30px;
       margin-bottom: 22px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 26px;
         margin-bottom: 14px;
       }
@@ -268,7 +268,7 @@
     .desc {
       margin-bottom: 19px;
       margin-right: -4px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         margin-bottom: 16px;
         margin-right: 0;
       }
@@ -278,13 +278,13 @@
 
 .candidate-details-wrap {
   margin-bottom: 51px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-bottom: 40px;
   }
   .content-title {
     font-size: 30px;
     margin-bottom: 30px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 26px;
       margin-bottom: 26px;
     }
@@ -292,28 +292,28 @@
 }
 
 .candidate-details-content {
-  border-left: 5px solid $gray-lighter;
+  border-left: 5px solid ₹gray-lighter;
   border-radius: 5px;
   position: relative;
   padding-left: 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding-left: 30px;
   }
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     padding-left: 0;
     border: none;
   }
   .content-item {
     padding: 28px 0 25px;
     position: relative;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding: 18px 0 18px;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       padding: 13px 0 13px;
     }
     &:before {
-      background-color: $theme-color;
+      background-color: ₹theme-color;
       bottom: 0;
       content: "";
       height: 0;
@@ -323,39 +323,39 @@
       left: -75px;
       border-radius: 50px;
       @include transition(all .3s ease-out);
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         left: -35px;
       }
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         display: none;
       }
     }
     .title {
       font-size: 20px;
       margin-bottom: 12px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 18px;
         margin-bottom: 10px;
       }
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         font-size: 16px;
         margin-bottom: 10px;
       }
       span {
         color: #656565;
         font-size: 15px;
-        font-weight: $font-weight-medium;
-        @media #{$xxs-device} {
+        font-weight: ₹font-weight-medium;
+        @media #{₹xxs-device} {
           font-size: 12px;
         }
       }
     }
     .sub-title {
-      color: $theme-color;
+      color: ₹theme-color;
       font-size: 16px;
-      font-weight: $font-weight-medium;
+      font-weight: ₹font-weight-medium;
       margin-bottom: 15px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 14px;
         margin-bottom: 14px;
       }
@@ -381,7 +381,7 @@
 
 .content-list-wrap {
   display: flex;
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     display: block;
   }
   .content {
@@ -389,13 +389,13 @@
     margin-right: 125px;
     padding-right: 126px;
     border-radius: 5px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       border-right: 4px solid #ebeeee;
       margin-right: 47px;
       padding-right: 46px;
       border-radius: 5px;
     }
-    @media #{$xs-device} {
+    @media #{₹xs-device} {
       border-right: none;
       margin-right: 40px;
       padding-right: 0;
@@ -406,7 +406,7 @@
       border-right: none;
       padding-right: 0;
       margin-right: 0;
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         padding-top: 40px;
       }
     }
@@ -426,19 +426,19 @@
 
 .employers-details-wrap {
   align-items: center;
-  background-color: $gray-lighter;
+  background-color: ₹gray-lighter;
   border-radius: 5px;
   margin-bottom: 50px;
   padding: 45px 50px 45px;
   display: flex;
   justify-content: space-between;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding: 35px;
   }
-  @media #{$md-device} {
+  @media #{₹md-device} {
     display: block;
   }
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     padding: 30px;
   }
 }
@@ -446,7 +446,7 @@
 .employers-details-info {
   align-items: center;
   display: flex;
-  @media #{$xxs-device} {
+  @media #{₹xxs-device} {
     display: block;
   }
   .thumb {
@@ -457,31 +457,31 @@
   .content {
     margin-top: -3px;
     margin-left: 30px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-left: 20px;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       margin-left: 0;
       margin-top: 15px;
     }
     .title {
       font-size: 24px;
       margin-bottom: 13px;
-      @media #{$md-device} {
+      @media #{₹md-device} {
         font-size: 20px;
         margin-bottom: 12px;
       }
     }
     .sub-title {
-      color: $theme-color;
+      color: ₹theme-color;
       font-size: 16px;
-      font-weight: $font-weight-medium;
+      font-weight: ₹font-weight-medium;
       margin-bottom: 12px;
     }
     .info-list {
       display: flex;
       margin-bottom: 18px;
-      @media #{$xs-device} {
+      @media #{₹xs-device} {
         display: block;
       }
       li {
@@ -491,7 +491,7 @@
         + {
           li {
             margin-left: 19px;
-            @media #{$xs-device} {
+            @media #{₹xs-device} {
               margin-left: 0;
               margin-top: 10px;
             }
@@ -502,11 +502,11 @@
   }
   .btn-theme {
     font-size: 15px;
-    font-weight: $font-weight-medium;
+    font-weight: ₹font-weight-medium;
     height: 45px;
     width: 120px;
     padding: 8px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 13px;
       height: 35px;
       width: 110px;
@@ -516,15 +516,15 @@
       border-color: #eef0f5;
       color: #272a33;
       &:hover {
-        color: $white;
-        background-color: $theme-color;
-        border-color: $theme-color;
+        color: ₹white;
+        background-color: ₹theme-color;
+        border-color: ₹theme-color;
       }
     }
     + {
       .btn-theme {
         margin-left: 11px;
-        @media #{$xs-device} {
+        @media #{₹xs-device} {
           margin-left: 0;
         }
       }
@@ -534,7 +534,7 @@
 
 .employers-counter {
   display: flex;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-top: 20px;
   }
   .counter-item {
@@ -544,49 +544,49 @@
     padding: 17px 10px 20px;
     width: 100px;
     @include transition(all .3s ease-out);
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       padding: 5px;
       width: 70px;
     }
     .counter {
       font-size: 32px;
       margin-bottom: 7px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 28px;
         margin-bottom: 5px;
       }
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         font-size: 22px;
         margin-bottom: 3px;
       }
     }
     .title {
-      color: $theme-color;
-      font-weight: $font-weight-normal;
+      color: ₹theme-color;
+      font-weight: ₹font-weight-normal;
       font-size: 15px;
       margin-bottom: 0;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 14px;
       }
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         font-size: 13px;
       }
     }
     + {
       .counter-item {
         margin-left: 20px;
-        @media #{$xxs-device} {
+        @media #{₹xxs-device} {
           margin-left: 5px;
         }
       }
     }
     &:hover {
-      background-color: $theme-color;
+      background-color: ₹theme-color;
       .counter {
-        color: $white;
+        color: ₹white;
       }
       .title {
-        color: $white;
+        color: ₹white;
       }
     }
   }
@@ -595,18 +595,18 @@
 .employers-details-item {
   margin-top: -4px;
   margin-right: 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-right: 0;
   }
   .content {
     margin-bottom: 44px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-bottom: 24px;
     }
     .title {
       font-size: 30px;
       margin-bottom: 22px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 26px;
         margin-bottom: 12px;
       }
@@ -614,7 +614,7 @@
     .desc {
       margin-bottom: 19px;
       margin-right: -4px;
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         font-size: 15px;
         margin-right: 0;
       }
@@ -627,7 +627,7 @@
       line-height: 1.75;
       position: relative;
       padding-left: 30px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 15px;
       }
       i {

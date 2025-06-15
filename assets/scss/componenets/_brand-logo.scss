@@ -8,7 +8,7 @@
   padding-top: 100px;
   padding-bottom: 120px;
   position: relative;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -21,7 +21,7 @@
 }
 
 .brand-logo-item {
-  @media #{$xs-device} {
+  @media #{₹xs-device} {
     text-align: center;
   }
   img {
@@ -58,29 +58,29 @@
   z-index: 1;
   @include translate(0%, -50%);
   @include transition(all .3s ease-out);
-  @media #{$xl-device} {
+  @media #{₹xl-device} {
     font-size: 22px;
     height: 40px;
     width: 40px;
   }
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     display: none;
   }
   &:hover {
-    background-color: $theme-color;
-    border-color: $theme-color;
-    color: $white;
+    background-color: ₹theme-color;
+    border-color: ₹theme-color;
+    color: ₹white;
   }
 }
 .brand-swiper-btn-prev {
   left: -60px;
-  @media #{$xl-device} {
+  @media #{₹xl-device} {
     left: 0;
   }
 }
 .brand-swiper-btn-next {
   right: -60px;
-  @media #{$xl-device} {
+  @media #{₹xl-device} {
     right: 0;
   }
 }

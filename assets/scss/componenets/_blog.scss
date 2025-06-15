@@ -6,7 +6,7 @@
 
 .blog-details-area {
   .container {
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-top: 74px;
       padding-bottom: 80px;
     }
@@ -17,7 +17,7 @@
   .container {
     padding-top: 73px;
     padding-bottom: 67px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-top: 70px;
       padding-bottom: 74px;
     }
@@ -27,10 +27,10 @@
 .blog-home-area {
   .container {
     padding-bottom: 120px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-bottom: 84px;
     }
-    @media #{$md-device} {
+    @media #{₹md-device} {
       padding-bottom: 46px;
     }
   }
@@ -40,11 +40,11 @@
   .container {
     padding-bottom: 100px;
     padding-top: 120px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       padding-bottom: 80px;
       padding-top: 80px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       padding-bottom: 53px;
     }
   }
@@ -53,18 +53,18 @@
 .post-home-style {
   .post-item {
     margin-bottom: 0;
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       margin-bottom: 40px;
     }
   }
 }
 
 .post-home-list-style {
-  @media #{$md-device} {
+  @media #{₹md-device} {
     display: flex;
     justify-content: space-between;
   }
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     display: block;
   }
   .post-item {
@@ -75,24 +75,24 @@
       border-bottom: none;
       padding-bottom: 0;
       margin-bottom: 0;
-      @media #{$md-device} {
+      @media #{₹md-device} {
         border-bottom: 2px solid #f2f5f5;
         padding-top: 40px;
         margin-top: 40px;
         margin-bottom: 40px;
-        @media #{$sm-device} {
+        @media #{₹sm-device} {
           margin-top: 0;
           padding-bottom: 41px;
         }
       }
     }
-    @media #{$md-device} {
+    @media #{₹md-device} {
       border-bottom: 2px solid #f2f5f5;
       max-width: 325px;
       border-top: 2px solid #f2f5f5;
       padding-top: 40px;
       margin-top: 40px;
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         margin-top: 0;
         max-width: none;
         width: 100%;
@@ -103,7 +103,7 @@
 
 .post-item {
   margin-bottom: 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-bottom: 50px;
   }
 
@@ -112,7 +112,7 @@
     margin-bottom: 39px;
     overflow: hidden;
     position: relative;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-bottom: 30px;
     }
     img {
@@ -125,18 +125,18 @@
   .content {
     .author {
       color: #929292;
-      font-weight: $font-weight-medium;
+      font-weight: ₹font-weight-medium;
       font-size: 16px;
       line-height: 1;
       margin-bottom: 15px; 
-      @media #{$md-device} {
+      @media #{₹md-device} {
         font-size: 13px;
       }
       a {
         color: #272a33;
         margin-left: 5px;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
@@ -145,20 +145,20 @@
       font-size: 23px;
       line-height: 1.522;
       margin-bottom: 14px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 18px;
       }
-      @media #{$md-device} {
+      @media #{₹md-device} {
         font-size: 16px;
       }
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         font-size: 17px;
       }
 
       a {
-        color: $theme-color2;
+        color: ₹theme-color2;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
@@ -205,7 +205,7 @@
     img {
       border-radius: 5px;
       @include transition(all .4s ease-out);
-      @media #{$xs-device} {
+      @media #{₹xs-device} {
         width: 100%;
       }
     }
@@ -215,16 +215,16 @@
     .author {
       color: #929292;
       font-size: 16px;
-      font-weight: $font-weight-medium;
+      font-weight: ₹font-weight-medium;
       margin-bottom: 14px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 14px;
         margin-bottom: 8px;
       }
       a {
-        color: $theme-color2;
+        color: ₹theme-color2;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
@@ -232,23 +232,23 @@
       font-size: 23px;
       line-height: 1.56;
       margin-bottom: 9px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 20px;
       }
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         font-size: 18px;
       }
       a {
-        color: $theme-color2;
+        color: ₹theme-color2;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
     .meta {
       color: #272a33;
       font-size: 14px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 13px;
       }
       .dots {
@@ -279,17 +279,17 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 43px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-bottom: 15px;
   }
   .title {
     font-size: 35px;
     margin-bottom: 0;
     margin-top: 3px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 26px;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       font-size: 22px;
       margin-top: 7px;
     }
@@ -311,20 +311,20 @@
     align-items: center;
     justify-content: center;
     @include transition(all .3s ease-out);
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 20px;
       height: 42px;
       width: 42px;
     }
     &:hover {
-      background-color: $theme-color;
-      border-color: $theme-color;
-      color: $white;
+      background-color: ₹theme-color;
+      border-color: ₹theme-color;
+      color: ₹white;
     }
   }
   .related-post-swiper-btn-next {
     margin-left: 20px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       margin-left: 8px;
     }
   }
@@ -332,26 +332,26 @@
 
 .post-details-info {
   margin-bottom: 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-bottom: 50px;
   }
   .meta {
     color: #656565;
     font-size: 15px;
-    font-family: $font-current-theme2;
+    font-family: ₹font-current-theme2;
     margin-bottom: 34px;
     display: flex;
     justify-content: center;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 14px;
       margin-bottom: 10px;
     }
     .author {
       a {
-        color: $theme-color2;
-        font-weight: $font-weight-medium;
+        color: ₹theme-color2;
+        font-weight: ₹font-weight-medium;
         &:hover {
-          color: $theme-color;
+          color: ₹theme-color;
         }
       }
     }
@@ -359,7 +359,7 @@
       margin: 0 14px;
       position: relative;
       top: -3px;
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         display: none;
       }
       &:before {
@@ -374,7 +374,7 @@
     span {
       + {
         span {
-          @media #{$xxs-device} {
+          @media #{₹xxs-device} {
             margin-left: 8px;
           }
         }
@@ -387,17 +387,17 @@
     max-width: 1010px;
     margin: 0 auto 45px;
     line-height: 1.309;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 36px;
       margin: 0 auto 34px;
     }
-    @media #{$md-device} {
+    @media #{₹md-device} {
       font-size: 30px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 24px;
     }
-    @media #{$xs-device} {
+    @media #{₹xs-device} {
       font-size: 20px;
       margin-bottom: 25px;
     }
@@ -408,34 +408,34 @@
       display: flex;
       justify-content: center;
       margin-bottom: 0;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         flex-wrap: wrap;
       }
       li {
         display: inline-block;
         a {
-          background-color: $gray-lighter;
+          background-color: ₹gray-lighter;
           border-radius: 5px;
-          color: $theme-color2;
+          color: ₹theme-color2;
           display: inline-block;
           font-size: 15px;
           padding: 6px 42px 6px;
           margin-top: 5px;
-          @media #{$lg-device} {
+          @media #{₹lg-device} {
             padding: 6px 15px 6px;
           }
           &:hover {
-            background-color: $theme-color;
-            color: $white;
+            background-color: ₹theme-color;
+            color: ₹white;
           }
         }
         + {
           li {
             margin-left: 20px;
-            @media #{$lg-device} {
+            @media #{₹lg-device} {
               margin-left: 10px;
             }
-            @media #{$xxs-device} {
+            @media #{₹xxs-device} {
               margin-left: 5px;
             }
           }
@@ -447,7 +447,7 @@
 
 .post-details-thumb {
   margin-bottom: 50px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-bottom: 30px;
   }
   img {
@@ -460,10 +460,10 @@
     font-size: 27px;
     margin-bottom: 18px;
     line-height: 1.48148;
-    @media #{$md-device} {
+    @media #{₹md-device} {
       font-size: 26px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 20px;
     }
   }
@@ -471,23 +471,23 @@
     font-size: 27px;
     margin-top: 32px;
     margin-bottom: 19px;
-    @media #{$md-device} {
+    @media #{₹md-device} {
       font-size: 25px;
       margin-top: 32px;
       margin-bottom: 20px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 20px;
     }
   }
   .desc-title3 {
     font-size: 26px;
     margin-bottom: 20px;
-    @media #{$md-device} {
+    @media #{₹md-device} {
       font-size: 24px;
       margin-bottom: 17px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 20px;
     }
   }
@@ -515,20 +515,20 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 69px 18px;
-    @media #{$md-device} {
+    @media #{₹md-device} {
       padding: 18px 0;
     }
-    @media #{$xxs-device} {
+    @media #{₹xxs-device} {
       padding: 10px 0;
     }
 
     span {
       color: #272a33;
-      font-weight: $font-weight-semi-bold;
+      font-weight: ₹font-weight-semi-bold;
       font-size: 19px;
       line-height: 1;
       margin-top: -3px;
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         font-size: 16px;
       }
     }
@@ -539,7 +539,7 @@
         + {
           a {
             margin-left: 17px;
-            @media #{$xxs-device} {
+            @media #{₹xxs-device} {
               margin-left: 6px;
             }
           }
@@ -548,7 +548,7 @@
     }
 
     a {
-      background-color: $gray-lighter;
+      background-color: ₹gray-lighter;
       border-radius: 5px;
       color: #22262a;
       display: inline-block;
@@ -557,20 +557,20 @@
       width: 45px;
       line-height: 45px;
       text-align: center;
-      @media #{$xs-device} {
+      @media #{₹xs-device} {
         height: 35px;
         line-height: 35px;
         width: 35px;
       }
-      @media #{$xxs-device} {
+      @media #{₹xxs-device} {
         height: 30px;
         line-height: 30px;
         width: 30px;
         font-size: 12px;
       }
       &:hover {
-        background-color: $theme-color;
-        color: $white;
+        background-color: ₹theme-color;
+        color: ₹white;
       }
     }
 
@@ -578,37 +578,37 @@
 }
 
 .blockquote-item {
-  background-color: $theme-color;
+  background-color: ₹theme-color;
   border-radius: 5px;
   padding: 69px 40px 65px;
   margin-top: 49px;
   margin-bottom: 42px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding: 30px 30px 27px;
   }
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     padding: 40px 30px;
   }
-  @media #{$xs-device} {
+  @media #{₹xs-device} {
     padding: 40px 15px;
   }
   .content {
     padding: 0;
     text-align: center;
     p {
-      color: $white;
-      font-weight: $font-weight-semi-bold;
+      color: ₹white;
+      font-weight: ₹font-weight-semi-bold;
       font-size: 44px;
       margin-bottom: 0;
       line-height: 1.545454;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         font-size: 30px;
       }
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         font-size: 20px;
       }
       span {
-        font-weight: $font-weight-bold;
+        font-weight: ₹font-weight-bold;
       }
     }
   }
@@ -620,11 +620,11 @@
   .title {
     font-size: 26px;
     margin-bottom: 40px;
-    @media #{$md-device} {
+    @media #{₹md-device} {
       font-size: 24px;
       margin-bottom: 25px;
     }
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       font-size: 20px;
     }
   }
@@ -634,18 +634,18 @@
       a {
         border: 1px solid #ededed;
         border-radius: 5px;
-        color: $theme-color;
+        color: ₹theme-color;
         display: block;
         font-size: 16px;
-        text-shadow: 0px 0px 100px rgba($black, .1);
+        text-shadow: 0px 0px 100px rgba(₹black, .1);
         padding: 15px 27px 14px;
         @include transition(all .2s ease-out);
-        @media #{$sm-device} {
+        @media #{₹sm-device} {
           display: inline-grid;
         }
         &:hover {
-          background-color: $gray-lighter;
-          border-color: $gray-lighter;
+          background-color: ₹gray-lighter;
+          border-color: ₹gray-lighter;
         }
         i {
           margin-right: 17px;
@@ -664,11 +664,11 @@
   .main-title {
     font-size: 30px;
     margin-bottom: 38px;
-    @media #{$lg-device} {
+    @media #{₹lg-device} {
       font-size: 26px;
       margin-bottom: 26px;
     }
-    @media #{$xs-device} {
+    @media #{₹xs-device} {
       font-size: 24px;
       margin-bottom: 24px;
     }
@@ -677,7 +677,7 @@
 
 .comment-view-area {
   padding: 78px 0 70px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding: 73px 0 74px;
   }
 }
@@ -688,7 +688,7 @@
   border-radius: 5px;
   margin-bottom: 30px;
   padding: 44px 36px 24px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding: 40px 25px 25px;
   }
   .author-info {
@@ -704,10 +704,10 @@
       justify-content: center;
       position: absolute;
       top: -15px;
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         top: 0;
       }
-      @media #{$xs-device} {
+      @media #{₹xs-device} {
         display: inline-flex;
         margin-bottom: 20px;
         position: relative;
@@ -717,16 +717,16 @@
     .author-details {
       margin-bottom: 31px;
       padding-left: 125px;
-      @media #{$lg-device} {
+      @media #{₹lg-device} {
         padding-left: 100px;
         margin-bottom: 30px;
       }
-      @media #{$sm-device} {
+      @media #{₹sm-device} {
         padding-left: 100px;
         margin-bottom: 30px;
         padding-top: 20px;
       }
-      @media #{$xs-device} {
+      @media #{₹xs-device} {
         padding-left: 0;
         margin-bottom: 20px;
         padding-top: 0;
@@ -734,7 +734,7 @@
       .title {
         font-size: 22px;
         margin-bottom: 6px;
-        @media #{$lg-device} {
+        @media #{₹lg-device} {
           font-size: 20px;
           margin-bottom: 4px;
         }
@@ -745,9 +745,9 @@
           color: #656565;
           font-size: 15px;
           span {
-            color: $theme-color;
+            color: ₹theme-color;
             margin-left: 0;
-            @media #{$xxs-device} {
+            @media #{₹xxs-device} {
               display: block;
             }
           }
@@ -763,25 +763,25 @@
     line-height: 1.66666;
     padding-left: 10px;
     margin-bottom: 0;
-    @media #{$xs-device} {
+    @media #{₹xs-device} {
       font-size: 14px;
       padding-left: 0;
     }
   }
 
   .btn-reply {
-    background-color: $gray-lighter;
+    background-color: ₹gray-lighter;
     position: absolute;
     top: 50px;
     right: 40px;
-    font-weight: $font-weight-semi-bold;
+    font-weight: ₹font-weight-semi-bold;
     font-size: 14px;
     width: 111px;
     height: 45px;
     border-radius: 5px;
     text-align: center;
     line-height: 45px;
-    @media #{$sm-device} {
+    @media #{₹sm-device} {
       position: relative;
       left: 0;
       bottom: 0;
@@ -791,12 +791,12 @@
       margin-top: 20px;
       margin-left: 8px;
     }
-    @media #{$xs-device} {
+    @media #{₹xs-device} {
       margin-left: 0;
     }
     &:hover {
-      background-color: $theme-color;
-      color: $white;
+      background-color: ₹theme-color;
+      color: ₹white;
     }
     i {
       margin-right: 11px;
@@ -806,20 +806,20 @@
 
 .comment-reply {
   margin-left: 100px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     margin-left: 60px;
   }
-  @media #{$sm-device} {
+  @media #{₹sm-device} {
     margin-left: 30px;
   }
-  @media #{$xs-device} {
+  @media #{₹xs-device} {
     margin-left: 15px;
   }
 }
 
 .comment-form-wrap {
   padding-bottom: 120px;
-  @media #{$lg-device} {
+  @media #{₹lg-device} {
     padding-bottom: 80px;
   }
   .main-title {}

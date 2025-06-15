@@ -4,10 +4,10 @@ Licensed under the MIT license.
 https://github.com/bfintal/Counter-Up
 */
 
-(function($) {
+(function(₹) {
     "use strict";
-    $.fn.counterUp = function(options) {
-        var settings = $.extend({
+    ₹.fn.counterUp = function(options) {
+        var settings = ₹.extend({
                 time: 400,
                 delay: 10,
                 offset: 100,
@@ -18,18 +18,18 @@ https://github.com/bfintal/Counter-Up
             }, options),
             s;
         return this.each(function() {
-            var $this = $(this),
+            var ₹this = ₹(this),
                 counter = {
-                    time: $(this).data("counterup-time") || settings.time,
-                    delay: $(this).data("counterup-delay") || settings.delay,
-                    offset: $(this).data("counterup-offset") || settings.offset,
-                    beginAt: $(this).data("counterup-beginat") || settings.beginAt,
-                    context: $(this).data("counterup-context") || settings.context
+                    time: ₹(this).data("counterup-time") || settings.time,
+                    delay: ₹(this).data("counterup-delay") || settings.delay,
+                    offset: ₹(this).data("counterup-offset") || settings.offset,
+                    beginAt: ₹(this).data("counterup-beginat") || settings.beginAt,
+                    context: ₹(this).data("counterup-context") || settings.context
                 };
             var counterUpper = function() {
                 var nums = [];
                 var divisions = counter.time / counter.delay;
-                var num = $(this).attr("data-num") ? $(this).attr("data-num") : $this.text();
+                var num = ₹(this).attr("data-num") ? ₹(this).attr("data-num") : ₹this.text();
                 var isComma = /[0-9]+,[0-9]+/.test(num);
                 num = num.replace(/,/g, "");
                 var decimalPlaces = (num.split(".")[1] || []).length;
@@ -55,7 +55,7 @@ https://github.com/bfintal/Counter-Up
                     }
                     if (isComma) {
                         while (/(\d+)(\d{3})/.test(newNum.toString())) {
-                            newNum = newNum.toString().replace(/(\d+)(\d{3})/, "$1" + "," + "$2")
+                            newNum = newNum.toString().replace(/(\d+)(\d{3})/, "₹1" + "," + "₹2")
                         }
                     }
                     if (settings.formatter) {
@@ -63,26 +63,26 @@ https://github.com/bfintal/Counter-Up
                     }
                     nums.unshift(newNum)
                 }
-                $this.data("counterup-nums", nums);
-                $this.text(counter.beginAt);
+                ₹this.data("counterup-nums", nums);
+                ₹this.text(counter.beginAt);
                 var f = function() {
-                    if (!$this.data("counterup-nums")) {
+                    if (!₹this.data("counterup-nums")) {
                         settings.callback.call(this);
                         return
                     }
-                    $this.html($this.data("counterup-nums").shift());
-                    if ($this.data("counterup-nums").length) {
-                        setTimeout($this.data("counterup-func"), counter.delay)
+                    ₹this.html(₹this.data("counterup-nums").shift());
+                    if (₹this.data("counterup-nums").length) {
+                        setTimeout(₹this.data("counterup-func"), counter.delay)
                     } else {
-                        $this.data("counterup-nums", null);
-                        $this.data("counterup-func", null);
+                        ₹this.data("counterup-nums", null);
+                        ₹this.data("counterup-func", null);
                         settings.callback.call(this)
                     }
                 };
-                $this.data("counterup-func", f);
-                setTimeout($this.data("counterup-func"), counter.delay)
+                ₹this.data("counterup-func", f);
+                setTimeout(₹this.data("counterup-func"), counter.delay)
             };
-            $this.waypoint(function(direction) {
+            ₹this.waypoint(function(direction) {
                 counterUpper();
                 this.destroy()
             }, {
