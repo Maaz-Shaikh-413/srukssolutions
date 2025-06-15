@@ -7,46 +7,46 @@
 .divider {
   &-style1 {
     padding: 97px 0 102px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding: 80px 0 85px;
     }
     .divider-content {
       .sub-title {
-        color: ₹white;
+        color: $white;
         font-size: 23px;
         margin-bottom: 23px;
-        @media #{₹lg-device} {
+        @media #{$lg-device} {
           font-size: 20px;
           margin-bottom: 10px;
         }
-        @media #{₹sm-device} {
+        @media #{$sm-device} {
           font-size: 18px;
         }
-        @media #{₹xs-device} {
+        @media #{$xs-device} {
           font-size: 15px;
         }
       }
       .title {
-        color: ₹white;
+        color: $white;
         font-size: 40px;
         line-height: 1.5;
         margin-bottom: 35px;
-        @media #{₹lg-device} {
+        @media #{$lg-device} {
           font-size: 30px;
           line-height: 1.4;
           margin-bottom: 22px;
         }
-        @media #{₹sm-device} {
+        @media #{$sm-device} {
           font-size: 28px;
         }
-        @media #{₹xs-device} {
+        @media #{$xs-device} {
           font-size: 25px;
         }
-        @media #{₹xxs-device} {
+        @media #{$xxs-device} {
           font-size: 22px;
         }
         br {
-          @media #{₹xxs-device} {
+          @media #{$xxs-device} {
             display: none;
           }
         }
@@ -55,16 +55,16 @@
         img {
           border-radius: 8px;
           @include transition(all .3s ease-out);
-          @media #{₹lg-device} {
+          @media #{$lg-device} {
             width: 150px;
           }
-          @media #{₹xs-device} {
+          @media #{$xs-device} {
             width: 130px;
           }
         }
         &-app-store {
           margin-left: 19px;
-          @media #{₹lg-device} {
+          @media #{$lg-device} {
             margin-left: 12px;
           }
         }
@@ -86,7 +86,7 @@
   .container {
     padding-top: 120px;
     padding-bottom: 120px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding-bottom: 80px;
       padding-top: 80px;
     }
@@ -94,19 +94,19 @@
 }
 
 .login-register-form-wrap {
-  background-color: ₹gray-lighter;
+  background-color: $gray-lighter;
   border-radius: 8px;
   padding: 48px 70px 51px;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     padding: 38px 50px 35px;
   }
-  @media #{₹sm-device} {
+  @media #{$sm-device} {
     padding: 35px 40px 32px;
   }
-  @media #{₹xs-device} {
+  @media #{$xs-device} {
     padding: 32px 34px 29px;
   }
-  @media #{₹xxs-device} {
+  @media #{$xxs-device} {
     padding: 28px 24px 25px;
   }
   .form-title {
@@ -117,13 +117,13 @@
       padding-bottom: 24px;
       position: relative;
       text-align: center;
-      @media #{₹lg-device} {
+      @media #{$lg-device} {
         font-size: 24px;
         margin-bottom: 30px;
         padding-bottom: 20px;
       }
       &:before {
-        background-color: ₹theme-color;
+        background-color: $theme-color;
         content: "";
         height: 3px;
         width: 50px;
@@ -141,7 +141,7 @@
   z-index: 1;
   &-theme {
     &:before {
-      background-color: ₹theme-color;
+      background-color: $theme-color;
       content: "";
       left: 0;
       height: 100%;
@@ -154,7 +154,7 @@
   }
   &-black {
     &:before {
-      background-color: ₹theme-color2;
+      background-color: $theme-color2;
       content: "";
       left: 0;
       height: 100%;
@@ -170,7 +170,7 @@
 .play-video-btn {
   .video-popup {
     align-items: center;
-    background-color: ₹theme-color;
+    background-color: $theme-color;
     height: 76px;
     border-radius: 50%;
     display: flex;
@@ -181,13 +181,13 @@
     text-align: center;
     width: 76px;
     z-index: 1;
-    @media #{₹sm-device} {
+    @media #{$sm-device} {
       width: 56px;
       height: 56px;
       margin: -30px auto 0;
     }
     &:before {
-      background-color: ₹theme-color;
+      background-color: $theme-color;
       border-radius: 50%;
       content: "";
       height: 100%;
@@ -226,16 +226,16 @@
   left: 0;
   opacity: .05;
   z-index: -1;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     width: 357px;
   }
-  @media #{₹md-device} {
+  @media #{$md-device} {
     width: 210px;
   }
-  @media #{₹sm-device} {
+  @media #{$sm-device} {
     width: 80px;
   }
-  @media #{₹xs-device} {
+  @media #{$xs-device} {
     display: none;
   }
 }
@@ -252,16 +252,16 @@
   right: 0;
   opacity: .05;
   z-index: -1;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     width: 357px;
   }
-  @media #{₹md-device} {
+  @media #{$md-device} {
     width: 210px;
   }
-  @media #{₹sm-device} {
+  @media #{$sm-device} {
     width: 80px;
   }
-  @media #{₹xs-device} {
+  @media #{$xs-device} {
     display: none;
   }
 }

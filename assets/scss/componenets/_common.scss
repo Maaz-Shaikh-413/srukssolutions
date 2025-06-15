@@ -18,7 +18,7 @@
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  @media #{₹xl-down-device} {
+  @media #{$xl-down-device} {
     max-width: 1200px;
   }
 }
@@ -80,7 +80,7 @@
 .row-gutter-70 {
   margin-right: -35px;
   margin-left: -35px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
     margin-right: -15px;
     margin-left: -15px;
     }
@@ -88,7 +88,7 @@
   [class*=col-] {
     padding-left: 35px;
     padding-right: 35px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -100,7 +100,7 @@
 .container-fluid {
   padding-bottom: 90px;
   padding-top: 113px;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     padding-bottom: 50px;
     padding-top: 80px;
   }
@@ -108,10 +108,10 @@
 
 /*-------- Button Style Css --------*/
 .btn-theme {
-  background-color: ₹theme-color;
-  border: 1px solid ₹theme-color;
+  background-color: $theme-color;
+  border: 1px solid $theme-color;
   border-radius: 5px;
-  color: ₹white;
+  color: $white;
   display: inline-block;
   font-size: 15px;
   padding: 8px 35px 8px;
@@ -120,7 +120,7 @@
     height: 38px;
     padding: 4px 5px 6px;
     width: 110px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       height: 34px;
       padding: 4px 4px 4px;
       width: 90px;
@@ -128,19 +128,19 @@
     }
   }
   &.btn-white {
-    background-color: ₹white;
-    border: 1px solid rgba(₹theme-color, .18);
-    color: ₹theme-color;
+    background-color: $white;
+    border: 1px solid rgba($theme-color, .18);
+    color: $theme-color;
     &:hover {
-      background-color: ₹theme-color;
-      border-color: ₹theme-color;
-      color: ₹white;
+      background-color: $theme-color;
+      border-color: $theme-color;
+      color: $white;
     }
   }
   &:hover {
-    background-color: ₹white;
-    border: 1px solid ₹theme-color;
-    color: ₹theme-color;
+    background-color: $white;
+    border: 1px solid $theme-color;
+    color: $theme-color;
   }
 }
 
@@ -164,7 +164,7 @@
 
 /*-------- Custom Color Style Css --------*/
 .bg-color-gray {
-  background-color: ₹gray-lighter;
+  background-color: $gray-lighter;
 }
 
 /*-------- Margin & Padding Custom Style Css --------*/
@@ -183,8 +183,8 @@
 .scroll-to-top {
   box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
   bottom: -60px;
-  background-color: ₹theme-color;
-  color: ₹white;
+  background-color: $theme-color;
+  color: $white;
   position: fixed;
   right: 30px;
   display: block;
@@ -202,7 +202,7 @@
   overflow: hidden;
   @include transition (all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1));
   z-index: 999;
-  @media #{₹sm-device} {
+  @media #{$sm-device} {
     right: 10px;
     width: 30px;
     height: 30px;
@@ -211,14 +211,14 @@
   }
 
   &:hover {
-    background-color: ₹theme-color2;
+    background-color: $theme-color2;
   }
 
   &.show {
     visibility: visible;
     opacity: .8;
     bottom: 20px;
-    @media #{₹sm-device} {
+    @media #{$sm-device} {
       bottom: 10px;
     }
 

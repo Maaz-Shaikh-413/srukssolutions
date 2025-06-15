@@ -8,7 +8,7 @@
   .container {
     padding-top: 129px;
     padding-bottom: 100px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding-top: 78px;
       padding-bottom: 60px;
     }
@@ -17,7 +17,7 @@
 
 .job-category-item {
   align-items: center;
-  background-color: ₹gray-lighter;
+  background-color: $gray-lighter;
   border-radius: 5px;
   display: flex;
   height: 68px;
@@ -25,22 +25,22 @@
   margin-bottom: 20px;
   position: relative;
   @include transition(all .3s ease-out);
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     height: 55px;
   }
   .content {
     margin-top: -1px;
   }
   .title {
-    color: ₹theme-color2;
+    color: $theme-color2;
     font-size: 16px;
-    font-weight: ₹font-weight-normal;
+    font-weight: $font-weight-normal;
     margin-bottom: 0;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       font-size: 14px;
     }
     a {
-      color: ₹theme-color2;
+      color: $theme-color2;
     }
   }
   .overlay-link {
@@ -51,10 +51,10 @@
     width: 100%;
   }
   &:hover {
-    background-color: ₹theme-color;
+    background-color: $theme-color;
     .title {
       a {
-        color: ₹white;
+        color: $white;
       }
     }
   }

@@ -7,76 +7,76 @@
 }
 
 //  user select
-@mixin select-none(₹x){
-  -webkit-touch-callout: (₹x); /* iOS Safari */
-  -webkit-user-select: (₹x); /* Safari */
-  -khtml-user-select: (₹x); /* Konqueror HTML */
-  -moz-user-select: (₹x); /* Old versions of Firefox */
-  -ms-user-select: (₹x); /* Internet Explorer/Edge */
-  user-select: (₹x); /* currently supported by Chrome, Edge, Opera and Firefox */
+@mixin select-none($x){
+  -webkit-touch-callout: ($x); /* iOS Safari */
+  -webkit-user-select: ($x); /* Safari */
+  -khtml-user-select: ($x); /* Konqueror HTML */
+  -moz-user-select: ($x); /* Old versions of Firefox */
+  -ms-user-select: ($x); /* Internet Explorer/Edge */
+  user-select: ($x); /* currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 // transition
-@mixin transition(₹x){
-  transition: ₹x;
-  -webkit-transition: ₹x;
-  -moz-transition: ₹x;
-  -ms-transition: ₹x;
-  -o-transition: ₹x;
+@mixin transition($x){
+  transition: $x;
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  -o-transition: $x;
 }
 
 // animation
-@mixin animation(₹x) {
-  animation: ₹x;
-  -webkit-animation: ₹x;
-  -moz-animation: ₹x;
-  -ms-animation: ₹x;
-  -o-animation: ₹x;
+@mixin animation($x) {
+  animation: $x;
+  -webkit-animation: $x;
+  -moz-animation: $x;
+  -ms-animation: $x;
+  -o-animation: $x;
 }
 
 // generic transform
-@mixin transform(₹x) {
-  transform: ₹x;
-  -webkit-transform: ₹x;
-  -moz-transform: ₹x;
-  -ms-transform: ₹x;
-  -o-transform: ₹x;
+@mixin transform($x) {
+  transform: $x;
+  -webkit-transform: $x;
+  -moz-transform: $x;
+  -ms-transform: $x;
+  -o-transform: $x;
 }
 
 // rotate
-@mixin rotate(₹deg) {
-  @include transform(rotate(#{₹deg}deg));
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
 }
  
 // scale
-@mixin scale(₹scale) {
-  @include transform(scale(₹scale));
+@mixin scale($scale) {
+  @include transform(scale($scale));
 }
 
 // translate
-@mixin translate(₹x, ₹y) {
-  @include transform(translate(₹x, ₹y));
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
 }
 
 // skew
-@mixin skew(₹x, ₹y) {
-  @include transform(skew(#{₹x}deg, #{₹y}deg));
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
 }
 
 // transform origin
-@mixin transform-origin(₹x) {
-  transform-origin: ₹x;
-  -webkit-transform-origin: ₹x;
-  -moz-transform-origin: ₹x;
-  -ms-transform-origin: ₹x;
-  -o-transform-origin: ₹x;
+@mixin transform-origin($x) {
+  transform-origin: $x;
+  -webkit-transform-origin: $x;
+  -moz-transform-origin: $x;
+  -ms-transform-origin: $x;
+  -o-transform-origin: $x;
 }
 
 // transform style
-@mixin transform-style(₹x) {
-  transform-style: ₹x;
-  -webkit-transform-style: ₹x;
-  -moz-transform-style: ₹x;
-  -ms-transform-style: ₹x;
-  -o-transform-style: ₹x;
+@mixin transform-style($x) {
+  transform-style: $x;
+  -webkit-transform-style: $x;
+  -moz-transform-style: $x;
+  -ms-transform-style: $x;
+  -o-transform-style: $x;
 }

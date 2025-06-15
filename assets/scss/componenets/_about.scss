@@ -8,7 +8,7 @@
   .container {
     padding-bottom: 120px;
     padding-top: 120px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding-bottom: 80px;
       padding-top: 80px;
     }
@@ -17,21 +17,21 @@
 }
 
 .about-thumb {
-  @media #{₹md-device} {
+  @media #{$md-device} {
     margin-bottom: 30px;
   }
   img {
     border-radius: 5px;
-    @media #{₹md-device} {
+    @media #{$md-device} {
       width: 100%;
     }
   }
   &.about-thumb-two {
     margin-right: -30px;
-    @media #{₹md-device} {
+    @media #{$md-device} {
       margin-bottom: 0;
     }
-    @media #{₹md-device} {
+    @media #{$md-device} {
       margin-right: 0;
     }
   }
@@ -40,20 +40,20 @@
 .about-content {
   margin-top: -1px;
   padding-left: 70px;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     padding-left: 30px;
   }
-  @media #{₹md-device} {
+  @media #{$md-device} {
     margin-top: 40px;
     padding-left: 0;
   }
 
   .sub-title {
-    color: ₹theme-color;
-    font-weight: ₹font-weight-medium;
+    color: $theme-color;
+    font-weight: $font-weight-medium;
     font-size: 18px;
     margin-bottom: 17px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       font-size: 14px;
       margin-bottom: 5px;
     }
@@ -63,7 +63,7 @@
     font-size: 30px;
     line-height: 1.5;
     margin-bottom: 18px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       font-size: 24px;
       margin-bottom: 8px;
     }
@@ -71,23 +71,23 @@
 
   .desc {
     margin-bottom: 33px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       margin-bottom: 22px;
     }
   }
 }
 
 .member-join-content {
-  background-color: ₹gray-lighter;
+  background-color: $gray-lighter;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px 30px;
-  @media #{₹lg-device} {
+  @media #{$lg-device} {
     padding: 20px;
   }
-  @media #{₹xs-device} {
+  @media #{$xs-device} {
     padding: 15px 10px;
   }
 
@@ -110,7 +110,7 @@
           position: relative;
 
           img {
-            border: 2px solid ₹white;
+            border: 2px solid $white;
             border-radius: 50%;
           }
 
@@ -122,13 +122,13 @@
             top: 0;
             background-color: #e3e5e4;
             border-radius: 50%;
-            border: 2px solid ₹white;
+            border: 2px solid $white;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 18px;
-            font-weight: ₹font-weight-semi-bold;
+            font-weight: $font-weight-semi-bold;
             padding-bottom: 2px;
           }
         }
@@ -137,8 +137,8 @@
   }
 
   .join-now-btn {
-    background-color: ₹theme-color;
-    color: ₹white;
+    background-color: $theme-color;
+    color: $white;
     display: inline-block;
     font-size: 15px;
     width: 150px;
@@ -148,7 +148,7 @@
     line-height: 47px;
     text-transform: capitalize;
     @include transition(all .3s ease-out);
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       font-size: 14px;
       width: 100px;
       height: 38px;
@@ -156,8 +156,8 @@
       line-height: 37px;
     }
     &:hover {
-      background-color: ₹theme-color2;
-      color: ₹white;
+      background-color: $theme-color2;
+      color: $white;
     }
   }
 }

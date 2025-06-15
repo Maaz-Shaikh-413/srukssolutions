@@ -7,7 +7,7 @@
 
 .work-process-area {
   .container {
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       padding-bottom: 44px;
     }
   }
@@ -18,7 +18,7 @@
   margin-bottom: 22px;
   position: relative;
   text-align: center;
-  @media #{₹md-device} {
+  @media #{$md-device} {
     margin: 0 auto 34px
   }
 
@@ -29,9 +29,9 @@
 
     .inner {
       align-items: center;
-      background-color: ₹gray-lighter;
+      background-color: $gray-lighter;
       border-radius: 5px;
-      color: ₹theme-color;
+      color: $theme-color;
       display: flex;
       height: 70px;
       justify-content: center;
@@ -40,7 +40,7 @@
       text-align: center;
       width: 70px;
       @include transition(all .3s ease-out);
-      @media #{₹lg-device} {
+      @media #{$lg-device} {
         height: 60px;
         margin: 10px;
         width: 60px;
@@ -57,7 +57,7 @@
         transform: translate(-50%, -50%);
         width: calc(100% + 30px);
         @include transition(all .3s ease-out);
-        @media #{₹lg-device} {
+        @media #{$lg-device} {
           height: calc(100% + 20px);
           width: calc(100% + 20px);
         }
@@ -66,7 +66,7 @@
       img {
         position: absolute;
         @include transition(all .3s ease-out);
-        @media #{₹lg-device} {
+        @media #{$lg-device} {
           width: 18px;
         }
       }
@@ -79,7 +79,7 @@
 
   .content {
     margin-top: 34px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       margin-top: 24px;
     }
   }
@@ -87,7 +87,7 @@
   .title {
     font-size: 22px;
     margin-bottom: 25px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       font-size: 20px;
       margin-bottom: 12px;
     }
@@ -101,13 +101,13 @@
     width: 33px;
     top: 40px;
     right: -52px;
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       position: absolute;
       width: 33px;
       top: 30px;
       right: -6px;
     }
-    @media #{₹md-device} {
+    @media #{$md-device} {
       display: none;
     }
     .shape-icon,
@@ -122,10 +122,10 @@
   &:hover {
     .icon-box {
       .inner {
-        background-color: ₹theme-color;
+        background-color: $theme-color;
 
         &:before {
-          border-color: ₹theme-color;
+          border-color: $theme-color;
         }
 
         .icon-hover {
@@ -145,14 +145,14 @@
 .working-process-content-wrap {
   display: flex;
   justify-content: space-between;
-  @media #{₹md-device} {
+  @media #{$md-device} {
     flex-wrap: wrap;
   }
   .working-col {
-    @media #{₹md-device} {
+    @media #{$md-device} {
       width: 50%;
     }
-    @media #{₹xxs-device} {
+    @media #{$xxs-device} {
       width: 100%;
     }
   }

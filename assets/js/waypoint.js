@@ -275,14 +275,14 @@ function() {
     "use strict";
 
     function t(t) {
-        this.₹element = e(t)
+        this.$element = e(t)
     }
     var e = window.jQuery,
         i = window.Waypoint;
     e.each(["innerHeight", "innerWidth", "off", "offset", "on", "outerHeight", "outerWidth", "scrollLeft", "scrollTop"], function(e, i) {
         t.prototype[i] = function() {
             var t = Array.prototype.slice.call(arguments);
-            return this.₹element[i].apply(this.₹element, t)
+            return this.$element[i].apply(this.$element, t)
         }
     }), e.each(["extend", "inArray", "isEmptyObject"], function(i, o) {
         t[o] = e[o]

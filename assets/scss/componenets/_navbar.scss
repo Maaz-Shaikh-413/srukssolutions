@@ -14,10 +14,10 @@
     }
 
     & > a {
-      color: ₹black;
+      color: $black;
       display: block;
       font-size: 14px;
-      font-weight: ₹font-weight-medium;
+      font-weight: $font-weight-medium;
       line-height: 30px;
       text-transform: uppercase;
       padding: 7px 25px;
@@ -26,9 +26,9 @@
 
     &:hover, &.active {
       & > a {
-        color: ₹theme-color;
+        color: $theme-color;
         &:before {
-          color: ₹theme-color;
+          color: $theme-color;
         }
       }
     }
@@ -46,7 +46,7 @@
 
     &:before {
       content: '\f063';
-      color: ₹theme-color2;
+      color: $theme-color2;
       display: none;
       font-size: 12px;
       font-family: "FontAwesome";
@@ -70,7 +70,7 @@
 
   // Sub Menu Style
   .submenu-nav {
-    background-color: ₹black-111;
+    background-color: $black-111;
     border: none;
     border-bottom: none;
     padding: 15px 0 15px;
@@ -85,7 +85,7 @@
     visibility: hidden;
     z-index: 9999;
 
-    @media #{₹lg-device} {
+    @media #{$lg-device} {
       min-width: 210px;
       left: 0;
     }
@@ -105,21 +105,21 @@
       a {
         color: #aaa;
         display: block;
-        font-weight: ₹font-weight-normal;
+        font-weight: $font-weight-normal;
         font-size: 14px;
         letter-spacing: inherit;
         text-transform: capitalize;
         &:hover {
-          color: ₹white;
+          color: $white;
         }
       }
 
       &:hover {
         & > a {
-          color: ₹white;
+          color: $white;
         }
         &:after {
-          color: ₹white !important;
+          color: $white !important;
         }
       }
 
@@ -145,7 +145,7 @@
         // Menu Item Arrows
         &:after {
           content: '\f105';
-          color: ₹body-color;
+          color: $body-color;
           font-size: 15px;
           line-height: 1;
           font-family: 'FontAwesome';
